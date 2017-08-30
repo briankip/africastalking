@@ -1,12 +1,12 @@
 {
-    "name": "laravel-notification-channels/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "name": "laravel-notification-channels/africastalking",
+    "description": "Laravel notification channel driver for AfricasTalking",
+    "homepage": "https://github.com/laravel-notification-channels/africastalking",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Brian Maiyo",
+            "email": "kipropbrian@gmail.com",
             "homepage": ":author_website",
             "role": "Developer"
         }
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\AfricasTalking\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\AfricasTalking\\Test\\": "tests"
         }
     },
     "scripts": {
