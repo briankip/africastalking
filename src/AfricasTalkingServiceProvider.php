@@ -12,12 +12,8 @@ class AfricasTalkingServiceProvider extends ServiceProvider
     public function boot()
     {
         // Bootstrap code here.
-
-        /**
-         * Here's some example code we use for the pusher package.
-
-        $this->app->when(Channel::class)
-            ->needs(Pusher::class)
+        $this->app->when(AfricasTalkingChannel::class)
+            ->needs(AfricasTalking::class)
             ->give(function () {
                 $pusherConfig = config('broadcasting.connections.pusher');
 
@@ -27,7 +23,6 @@ class AfricasTalkingServiceProvider extends ServiceProvider
                     $pusherConfig['app_id']
                 );
             });
-         */
 
     }
 
